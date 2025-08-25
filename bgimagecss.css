@@ -1,0 +1,6 @@
+#cover {
+  background: url("./cover.jpg") center/cover no-repeat;
+}
+
+#page1 { background:url('./page1.jpg') center/cover no-repeat; }
+#page2 { background:url('./page2.jpg') center/cover no-repeat; }

@@ -1,0 +1,38 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+body { outline: 4px solid red; }
+
+.book {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.page {
+  flex: 0 0 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  border-left: 2px solid #00ff00;
+  border-right: 2px solid #00ff00;
+  padding: 2em;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+h1, h2 {
+  color: #00ff00;
+}
+pre {
+  background: #111;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+}
